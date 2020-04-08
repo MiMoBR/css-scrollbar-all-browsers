@@ -1,0 +1,30 @@
+#leads-list{
+    overflow-Y: auto;
+    overflow-x: hidden;
+	max-height: calc(100vh - 81px);
+	width: 100%;
+	height: auto;
+}
+/*chrome*/
+#leads-list::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+#leads-list::-webkit-scrollbar:vertical {
+    width: 11px;
+}
+
+#leads-list::-webkit-scrollbar:horizontal {
+    height: 11px;
+}
+
+#leads-list::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    border: 2px solid white; 
+    background-color: rgba(0, 0, 0, .2);
+}
+/*Filezilla*/
+#leads-list {
+  scrollbar-color: rgba(0, 0, 0, .2) white;
+  scrollbar-width: thin;
+}
